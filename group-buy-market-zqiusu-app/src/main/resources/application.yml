@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: group-buy-market-zqiusu-app
+  profiles:
+    active: dev
