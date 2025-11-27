@@ -1,14 +1,32 @@
-25-11-26.18:02:01.609 [main            ] INFO  GroupBuyActivityDaoTest - Starting GroupBuyActivityDaoTest using Java 17.0.17 on zhangzhipengdeMacBook-Air.local with PID 5679 (started by zqiusu in /Users/zqiusu/Desktop/workspace/zqiusu/group-buy-market-zqiusu/group-buy-market-zqiusu-app)
-25-11-26.18:02:01.610 [main            ] INFO  GroupBuyActivityDaoTest - The following 1 profile is active: "dev"
-25-11-26.18:02:02.230 [main            ] INFO  GroupBuyActivityDaoTest - Started GroupBuyActivityDaoTest in 0.792 seconds (JVM running for 1.143)
-25-11-26.18:03:54.710 [main            ] INFO  GroupBuyActivityListTest - Starting GroupBuyActivityListTest using Java 17.0.17 on zhangzhipengdeMacBook-Air.local with PID 5720 (started by zqiusu in /Users/zqiusu/Desktop/workspace/zqiusu/group-buy-market-zqiusu/group-buy-market-zqiusu-app)
-25-11-26.18:03:54.711 [main            ] INFO  GroupBuyActivityListTest - The following 1 profile is active: "dev"
-25-11-26.18:03:55.274 [main            ] INFO  GroupBuyActivityListTest - Started GroupBuyActivityListTest in 0.736 seconds (JVM running for 1.011)
-25-11-26.18:07:19.356 [main            ] INFO  GroupBuyActivityListTest - Starting GroupBuyActivityListTest using Java 17.0.17 on zhangzhipengdeMacBook-Air.local with PID 5764 (started by zqiusu in /Users/zqiusu/Desktop/workspace/zqiusu/group-buy-market-zqiusu/group-buy-market-zqiusu-app)
-25-11-26.18:07:19.357 [main            ] INFO  GroupBuyActivityListTest - The following 1 profile is active: "dev"
-25-11-26.18:07:19.969 [main            ] INFO  GroupBuyActivityListTest - Started GroupBuyActivityListTest in 0.769 seconds (JVM running for 1.057)
-25-11-26.18:07:20.094 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
-25-11-26.18:07:20.285 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
-25-11-26.18:07:20.358 [main            ] INFO  GroupBuyActivityListTest - 测试结果:[{"activityId":100123,"channel":"c01","createTime":"2024-12-07 10:19:40","discountId":"25120207","endTime":"2024-12-07 10:19:40","goodsId":"9890001","groupType":0,"id":1,"source":"s01","startTime":"2024-12-07 10:19:40","status":0,"tagId":"1","tagScope":"1","takeLimitCount":1,"target":1,"updateTime":"2024-12-07 10:19:40","validTime":15}]
-25-11-26.18:07:20.363 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
-25-11-26.18:07:20.365 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-11-27.09:19:37.440 [main            ] INFO  GroupBuyDiscountListTest - Starting GroupBuyDiscountListTest using Java 17.0.17 on zhangzhipengdeMacBook-Air.local with PID 1459 (started by zqiusu in /Users/zqiusu/Desktop/workspace/zqiusu/group-buy-market-zqiusu/group-buy-market-zqiusu-app)
+25-11-27.09:19:37.440 [main            ] INFO  GroupBuyDiscountListTest - The following 1 profile is active: "dev"
+25-11-27.09:19:38.025 [main            ] INFO  GroupBuyDiscountListTest - Started GroupBuyDiscountListTest in 0.737 seconds (JVM running for 1.065)
+25-11-27.09:19:38.141 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-11-27.09:19:38.291 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-11-27.09:19:38.366 [main            ] INFO  GroupBuyDiscountListTest - 查询结果:[{"createTime":1733538015000,"discountDesc":"测试优惠","discountId":9890001,"discountName":"测试优惠","discountType":0,"id":1,"marketExpr":"20","marketPlan":"ZJ","updateTime":1733538015000}]
+25-11-27.09:19:38.370 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-11-27.09:19:38.373 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-11-27.09:25:58.924 [main            ] INFO  GroupBuyDiscountListTest - Starting GroupBuyDiscountListTest using Java 17.0.17 on zhangzhipengdeMacBook-Air.local with PID 1656 (started by zqiusu in /Users/zqiusu/Desktop/workspace/zqiusu/group-buy-market-zqiusu/group-buy-market-zqiusu-app)
+25-11-27.09:25:58.924 [main            ] INFO  GroupBuyDiscountListTest - The following 1 profile is active: "dev"
+25-11-27.09:25:59.501 [main            ] INFO  GroupBuyDiscountListTest - Started GroupBuyDiscountListTest in 0.736 seconds (JVM running for 1.032)
+25-11-27.09:25:59.629 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-11-27.09:25:59.743 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-11-27.09:25:59.800 [main            ] INFO  GroupBuyDiscountListTest - 查询结果:[{"createTime":1733538015000,"discountDesc":"测试优惠","discountId":9890001,"discountName":"测试优惠","discountType":0,"id":1,"marketExpr":"20","marketPlan":"ZJ","updateTime":1733538015000}]
+25-11-27.09:25:59.804 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-11-27.09:25:59.806 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-11-27.09:26:24.356 [main            ] INFO  GroupBuyDiscountListTest - Starting GroupBuyDiscountListTest using Java 17.0.17 on zhangzhipengdeMacBook-Air.local with PID 1665 (started by zqiusu in /Users/zqiusu/Desktop/workspace/zqiusu/group-buy-market-zqiusu/group-buy-market-zqiusu-app)
+25-11-27.09:26:24.356 [main            ] INFO  GroupBuyDiscountListTest - The following 1 profile is active: "dev"
+25-11-27.09:26:24.872 [main            ] INFO  GroupBuyDiscountListTest - Started GroupBuyDiscountListTest in 0.677 seconds (JVM running for 0.924)
+25-11-27.09:26:24.975 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-11-27.09:26:25.083 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-11-27.09:26:25.096 [main            ] INFO  GroupBuyDiscountListTest - 查询结果:[GroupBuyDiscount(id=1, discountId=9890001, discountName=测试优惠, discountDesc=测试优惠, discountType=0, marketPlan=ZJ, marketExpr=20, tagId=null, createTime=Sat Dec 07 10:20:15 CST 2024, updateTime=Sat Dec 07 10:20:15 CST 2024)]
+25-11-27.09:26:25.100 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-11-27.09:26:25.103 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-11-27.09:43:48.644 [main            ] INFO  GroupBuyActivityListTest - Starting GroupBuyActivityListTest using Java 17.0.17 on zhangzhipengdeMacBook-Air.local with PID 2028 (started by zqiusu in /Users/zqiusu/Desktop/workspace/zqiusu/group-buy-market-zqiusu/group-buy-market-zqiusu-app)
+25-11-27.09:43:48.645 [main            ] INFO  GroupBuyActivityListTest - The following 1 profile is active: "dev"
+25-11-27.09:43:49.213 [main            ] INFO  GroupBuyActivityListTest - Started GroupBuyActivityListTest in 0.711 seconds (JVM running for 1.058)
+25-11-27.09:43:49.328 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-11-27.09:43:49.450 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-11-27.09:43:49.509 [main            ] INFO  GroupBuyActivityListTest - 测试结果:[{"activityId":100123,"channel":"c01","createTime":"2024-12-07 10:19:40","discountId":"25120207","endTime":"2024-12-07 10:19:40","goodsId":"9890001","groupType":0,"id":1,"source":"s01","startTime":"2024-12-07 10:19:40","status":0,"tagId":"1","tagScope":49,"takeLimitCount":1,"target":1,"updateTime":"2024-12-07 10:19:40","validTime":15}]
+25-11-27.09:43:49.513 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-11-27.09:43:49.515 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
