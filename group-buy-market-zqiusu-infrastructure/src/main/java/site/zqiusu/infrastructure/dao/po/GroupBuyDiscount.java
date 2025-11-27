@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * 拼团折扣实体类
@@ -29,10 +30,10 @@ public class GroupBuyDiscount {
     private String discountDesc;
 
     /* 折扣类型（0:base、1:tag） */
-    private Integer discountType = 0;
+    private Byte discountType ;
 
     /* 营销优惠计划（ZJ:直减、MJ:满减、N元购） */
-    private String marketPlan = "ZJ";
+    private String marketPlan ;
 
     /* 营销优惠表达式 */
     private String marketExpr;
@@ -41,8 +42,8 @@ public class GroupBuyDiscount {
     private String tagId;
 
     /* 创建时间 */
-    private LocalDateTime createTime;
+    private Date createTime;
 
     /* 更新时间 */
-    private LocalDateTime updateTime;
+    private Date updateTime;
 }

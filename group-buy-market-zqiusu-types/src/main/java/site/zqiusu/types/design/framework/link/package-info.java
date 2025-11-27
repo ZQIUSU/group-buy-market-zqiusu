@@ -1,0 +1,1 @@
+package site.zqiusu.types.design.framework.link;
